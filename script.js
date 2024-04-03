@@ -13,4 +13,12 @@ form.addEventListener('submit', function(event) {
     let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
+
+
+    if (imc <18.5) {
+        description = 'Cuidado você está abaixo do peso!'
+    }
+
+    document.getElementById('description').textContent = description;
 });
+
