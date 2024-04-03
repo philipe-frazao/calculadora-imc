@@ -23,8 +23,8 @@ body {
     gap: 3.5rem;
 }
 
-#img_treino img {
-    width: 32rem;
+#img img {
+    width: 31rem;
 }
 
 #calculator {
@@ -80,7 +80,7 @@ body {
 .input-field  i {
     color: #cbd5e1;
     font-size: 1.3rem;
-    padding: 0.6rem;
+    padding: 0.6rem 1rem;
 }
 
 .input-field input {
@@ -97,7 +97,7 @@ body {
     appearance: none;
 }
 
-.input-field:focus {
+.input-field input:focus {
     outline: none;
 }
 
